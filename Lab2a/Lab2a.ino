@@ -58,6 +58,8 @@ void loop() {
         digitalWrite(buzzer, LOW);
         noTone(buzzer);
         Serial.print("You entered x.");
+        break;
+        
       default:
         digitalWrite(led, LOW);        
         digitalWrite(buzzer, LOW);
