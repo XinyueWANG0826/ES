@@ -45,7 +45,7 @@ void loop() {
       3) Duration - how long teh tone plays
     */
     tone (buzzer, 500,500);
-        Serial.println("You entered 0.");
+        Serial.println("You entered 1.");
         break;
 
       case 't':
