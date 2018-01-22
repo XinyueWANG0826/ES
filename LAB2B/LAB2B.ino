@@ -17,6 +17,8 @@ char inVal;                             // Use this to read a character from the
 void setup() 
 {
   pinMode(led1, OUTPUT);                // Initialise digital pin for the LED
+  pinMode(led2, OUTPUT);
+  pinMode(buzzer, OUTPUT);
   Serial.begin(115200);                // Set the Baudrate to 115200 on putty as well (note which serial port) 
 }
 
