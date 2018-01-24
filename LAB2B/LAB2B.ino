@@ -19,6 +19,8 @@ void setup()
   pinMode(led1, OUTPUT);                // Initialise digital pin for the LED
   pinMode(led2, OUTPUT);
   pinMode(buzzer, OUTPUT);
+  pinMode(1,OUTPUT);
+  pinMode(0,INPUT);
   Serial.begin(115200);                // Set the Baudrate to 115200 on putty as well (note which serial port) 
   Serial1.begin(115200);
 }
