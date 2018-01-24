@@ -20,34 +20,35 @@ void setup()
   pinMode(led2, OUTPUT);
   pinMode(buzzer, OUTPUT);
   Serial.begin(115200);                // Set the Baudrate to 115200 on putty as well (note which serial port) 
+  Serial1.begin(115200);
 }
 
 /***************************************************************************************************************************/
 
 void loop() 
 {
-  if (Serial.available()>0)            // Will only read the serial when something is entered (have to enter the x twice to stop)
+  if (Serial1.available()>0)            // Will only read the serial when something is entered (have to enter the x twice to stop)
     {
-    inVal=Serial.read();               // Reads data from the serial port
+    inVal=Serial1.read();               // Reads data from the serial port
     
     if(inVal == '1')                    // If you enter 1 the  first LED will turn on then off
     {                                   
       digitalWrite(led1, HIGH);         // Turns the LED 1 on
-      Serial.println("You entered 1"); // Prints out this message
+      Serial1.println("You entered 1"); // Prints out this message
       delay(2000);                      // Wait for 2 seconds
       digitalWrite(led1, LOW);          // Turns the LED 1 off
     }
     else if(inVal == 't')
     {
     digitalWrite(buzzer,HIGH);
-    Serial.println("You entered t");
+    Serial1.println("You entered t");
     tone(buzzer,500,800000);
     digitalWrite(led2,HIGH);
     }
     else if(inVal == 'x')
     {
     digitalWrite(buzzer,LOW);
-    Serial.println("You entered x");
+    Serial1.println("You entered x");
     noTone(buzzer);
     digitalWrite(led2,LOW);
     }
@@ -55,7 +56,7 @@ void loop()
     else                                 // If there is no input from the serial line, turn the LED's off and displays a message
     {
       digitalWrite(led1, LOW);
-      Serial.println("Waiting for command.......");   
+      Serial1.println("Waiting for command.......");   
       delay(2000);
     }
   
