@@ -1,0 +1,96 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/dell/Downloads/LAB11
+vclock_div
+!s110 1527632373
+!i10b 1
+!s100 UCAaee1m4g6D3EO_QL^:60
+IJIINYC9ITz7]=k<M[C@]T3
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/dell/Downloads/LAB11/LAB11
+w1527609602
+8C:/Users/dell/Downloads/LAB11/LAB11/clock_div.v
+FC:/Users/dell/Downloads/LAB11/LAB11/clock_div.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1527632373.000000
+!s107 C:/Users/dell/Downloads/LAB11/LAB11/clock_div.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dell/Downloads/LAB11/LAB11/clock_div.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+vcounter
+Z5 !s110 1527632374
+!i10b 1
+!s100 gVZnP1lJ4:^7ii_<PL76B2
+IMcCP1ToJ758cO[gDT6:7S3
+R0
+R1
+w1527465324
+8C:/Users/dell/Downloads/LAB11/LAB11/counter.v
+FC:/Users/dell/Downloads/LAB11/LAB11/counter.v
+L0 1
+R2
+r1
+!s85 0
+31
+Z6 !s108 1527632374.000000
+!s107 C:/Users/dell/Downloads/LAB11/LAB11/counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dell/Downloads/LAB11/LAB11/counter.v|
+!i113 1
+R3
+R4
+vLAB11_asyCounter
+R5
+!i10b 1
+!s100 42M6Nn>I1S82@lajadW@S2
+I4Cn?A^lmD<98lYd<QUZ`P3
+R0
+R1
+w1527462338
+8C:/Users/dell/Downloads/LAB11/LAB11/LAB11_asyCounter.v
+FC:/Users/dell/Downloads/LAB11/LAB11/LAB11_asyCounter.v
+L0 3
+R2
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/dell/Downloads/LAB11/LAB11/LAB11_asyCounter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dell/Downloads/LAB11/LAB11/LAB11_asyCounter.v|
+!i113 1
+R3
+R4
+n@l@a@b11_asy@counter
+vmyPLL
+!s110 1527632375
+!i10b 1
+!s100 bEW^F;Q]4iCAcWHb=`63m0
+I96;ViWccc9glfY0AKHT0`3
+R0
+R1
+w1525780814
+8C:/Users/dell/Downloads/LAB11/LAB11/myPLL.v
+FC:/Users/dell/Downloads/LAB11/LAB11/myPLL.v
+L0 8
+R2
+r1
+!s85 0
+31
+!s108 1527632375.000000
+!s107 C:/Users/dell/Downloads/LAB11/LAB11/myPLL.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dell/Downloads/LAB11/LAB11/myPLL.v|
+!i113 1
+R3
+R4
+nmy@p@l@l

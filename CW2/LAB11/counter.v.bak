@@ -1,0 +1,9 @@
+module LAB11_asyCounter (clk, reset, enable, counter);
+input clk, reset, enable;
+output [23:0] counter; // red LEDs
+reg [23:0] counter;
+always @(posedge clk)
+begin
+	
+end
+endmodule

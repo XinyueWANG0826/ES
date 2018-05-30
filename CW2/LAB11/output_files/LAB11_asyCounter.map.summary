@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Wed May 30 01:01:37 2018
+Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+Revision Name : LAB11_asyCounter
+Top-level Entity Name : Lab11
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 503
+Total pins : 48
+Total virtual pins : 0
+Total block memory bits : 512
+Total DSP Blocks : 0
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 1
+Total DLLs : 0

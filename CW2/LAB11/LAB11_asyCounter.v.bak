@@ -1,0 +1,12 @@
+case (counter[3:0])
+4'b0000 : HEX0 = 7'b1000000; // display 0
+4'b0001 : HEX0 = 7'b1111001; // display 1
+4'b0010 : HEX0 = 7'b0100100; // display 2
+4'b0011 : HEX0 = 7'b0110000; // display 3
+4'b0100 : HEX0 = 7'b0011001; // display 4
+4'b0101 : HEX0 = 7'b0010010; // display 5
+4'b0110 : HEX0 = 7'b0000010; // display 6
+4'b0111 : HEX0 = 7'b1111000; // display 7
+...
+default: HEX0 = 7'b0000000; //display 8
+endcase
